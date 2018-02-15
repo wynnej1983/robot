@@ -27,6 +27,11 @@ const config = {
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
+  node: {
+    global: false,
+    process: false,
+    fs: 'empty',
+  },
   module: {
     rules: [
       {
